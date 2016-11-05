@@ -36,4 +36,9 @@ public class AppTests {
                 .andExpect(status().isOk())
                 .andExpect(view().name("hello"));
     }
+
+    @Test
+    public void testSayHello() {
+        System.out.println("Test update code to github.");
+    }
 }
